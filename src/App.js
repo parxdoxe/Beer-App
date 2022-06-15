@@ -1,6 +1,8 @@
 import React from 'react';
 import Header from './Header'
 import Results from './Results';
+import Search from './Search';
+
 
 
 
@@ -17,9 +19,10 @@ class App extends React.Component {
         <div className='header'>
           <Header name="Beer App !" />
         </div>
+
+        <Search />
         
         <div className='flex'>
-          
           <Results /> 
         </div>
         

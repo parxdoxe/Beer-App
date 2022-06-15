@@ -22,7 +22,7 @@ class Beer extends React.Component{
                 
                 <div className="border"></div>
                 <h2>{this.props.beer.name}</h2>
-                <Link to={'beer/' + this.props.beer.id + '/' + this.props.beer.name}>
+                <Link to={'/beer/' + this.props.beer.id + '/' + this.props.beer.name}>
                 <img src={this.props.beer.image_url} alt={this.props.beer.name} />
                 </Link>
                 <Outlet />

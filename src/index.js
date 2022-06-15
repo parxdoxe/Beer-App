@@ -13,6 +13,7 @@ root.render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/beer/:id/:name" element={<BeerPage />} />
+        <Route path="/search/:search" element={<App />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

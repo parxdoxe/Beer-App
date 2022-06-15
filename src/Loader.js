@@ -1,5 +1,11 @@
 function Loader (){
-    return <p>Chargement en cours</p>
+    return (
+        <div>
+            <img src="img/oval.svg" />
+            <p>Chargement en cours</p>
+        </div>
+        
+    )
     }
     
     export default Loader
